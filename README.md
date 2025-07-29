@@ -18,7 +18,7 @@ This project simulates a real-world Security Operations workflow using Splunk SO
 - Kali Linux w/ rdesktop for generating RDP event code
 
 ## Lab Architecture
-
+![Diagram](images/ADSPlunkSOAR.jpg)
 
 ## How it works
 1. A simulated RDP login from a Kali Linux machine using rdesktop triggers a Windows Event ID 4624 w/ Event code 10
@@ -32,4 +32,3 @@ This project simulates a real-world Security Operations workflow using Splunk SO
 
 ## Screenshots
 
-  
