@@ -19,8 +19,7 @@ This project simulates a real-world Security Operations workflow using Splunk SO
 
 ## Lab Architecture
 ![Diagram](images/ADSPlunkSOAR.jpg)
-
-## How it works
+### How it works
 1. A simulated RDP login from a Kali Linux machine using rdesktop triggers a Windows Event ID 4624 w/ Event code 10
 2. Windows Server and Windows 11 Client sends telemetry to Splunk server via UFW
 3. A Splunk alert (scheduled via cron) detects the logon and triggers a SOAR playbook
