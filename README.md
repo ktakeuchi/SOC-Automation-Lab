@@ -30,4 +30,27 @@ This project simulates a real-world Security Operations workflow using Splunk SO
    - If NO, the playbook ends the response with no action
 
 ## Screenshots
+### Initial setup and configuration
+![](images/ADDS.png)
+![](images/JohnDoeCreation.png)
+![](images/SOARinitialsetup.png)
+![](images/pfsenseconfig.png)
+![](images/UFWlogsetup.png)
+![](images/SplunkLogs.png)
+![](images/SOARdashboard.png)
+
+### Attack + Alert
+![](images/weakfwconfig.png)
+![](images/kalirdp.png)
+![](images/splunkevent.png)
+
+### Triage
+![](images/SOARplaybook.png)
+![](images/email1.png)
+![](images/SOARresponse.png)
+![](images/disabledacc.png)
+![](images/email2.png)
+
+
+
 
