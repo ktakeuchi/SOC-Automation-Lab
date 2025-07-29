@@ -54,6 +54,12 @@ For full documentation of setup and troubleshooting, see [FullDocumentationADSOA
 ![](images/disabledacc.png)
 ![](images/email2.png)
 
-
+## Skills Demonstrated
+- Security automation using Splunk SOAR
+- Event correlation & field extraction using Splunk Enterprise
+- Playbook development in SOAR
+- AD integration and automation
+- Windows log analysis
+- Homelab networking & segmentation
 
 
