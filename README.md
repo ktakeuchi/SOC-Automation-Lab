@@ -29,6 +29,9 @@ This project simulates a real-world Security Operations workflow using Splunk SO
    - If YES, the SOAR playbook disables the user account in Active Directory using an LDAP action
    - If NO, the playbook ends the response with no action
 
+## Documentation
+For full documentation of setup and troubleshooting, see [FullDocumentationADSOAR.pdf](FullDocumentationADSOAR.pdf)
+
 ## Screenshots
 ### Initial setup and configuration
 ![](images/ADDS.png)
