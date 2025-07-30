@@ -34,24 +34,65 @@ For full documentation of setup and troubleshooting, see [FullDocumentationADSOA
 
 ## Screenshots
 ### Initial setup and configuration
+ADDS Setup:
 ![](images/ADDS.png)
+
+Creation of user account in domain COMPANY:
+
 ![](images/JohnDoeCreation.png)
+
+Splunk SOAR initial bootup in RHEL 8:
+
 ![](images/SOARinitialsetup.png)
+
+pfSense network interface configurations:
+
 ![](images/pfsenseconfig.png)
+
+Setting up UFW to send Windows Security Logs from Windows Server and Windows 11 Client to Splunk:
+
 ![](images/UFWlogsetup.png)
+
+Splunk logs showing both devices sending telemetry:
+
 ![](images/SplunkLogs.png)
+
+Splunk SOAR dashboard:
+
 ![](images/SOARdashboard.png)
 
-### Attack + Alert
+### RDP Attack + Splunk Alert
+Weak firewall configuration that allows for all port attacks (in this example RDP):
+
 ![](images/weakfwconfig.png)
+
+Kali Linux Device using rdesktop to RDP into Windows 11 Client w/ John Doe's credentials:
+
 ![](images/kalirdp.png)
+
+Event that was generated in Splunk:
+
 ![](images/splunkevent.png)
 
-### Triage
+### Triage and Playbook
+Splunk SOAR Playbook:
+
 ![](images/SOARplaybook.png)
+
+Email sent to analyst when alert is triggered:
+
 ![](images/email1.png)
+
+Analyst response on Splunk SOAR (Yes/No):
+
 ![](images/SOARresponse.png)
+
+When analyst clicks Yes, it disabled account John Doe in Active Directory:
+
 ![](images/disabledacc.png)
+
+Follow up email regarding the status of account that was disabled:
+
 ![](images/email2.png)
 
 ## Skills Demonstrated
