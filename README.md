@@ -30,7 +30,7 @@ This project simulates a real-world Security Operations workflow using Splunk SO
    - If NO, the playbook ends the response with no action
 
 ## Documentation
-For full documentation of setup and troubleshooting, see [FullDocumentationADSOAR.pdf](FullDocumentationADSOAR.pdf)
+For full documentation of all steps taken and troubleshooting, see [FullDocumentationADSOAR.pdf](FullDocumentationADSOAR.pdf)
 
 ## Screenshots
 ### Initial setup and configuration
