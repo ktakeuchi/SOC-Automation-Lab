@@ -7,8 +7,7 @@ This project simulates a real-world Security Operations workflow using Splunk SO
 - Automated email sent to analyst for triage
 - Waits for analyst input, then disables the user account in AD if needed
 - Detection aligned with MIRE ATT&CK techniques
-- Built entirely in a segmented network
-- Fully on-premise Splunk Enterprise and Splunk SOAR
+- Built a **fully** on-prem SIEM + SOAR stack using Splunk in a segmented VM-based homelab
 
 ## Technologies Used
 - **Splunk Enterprise**
