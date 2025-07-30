@@ -7,15 +7,16 @@ This project simulates a real-world Security Operations workflow using Splunk SO
 - Automated email sent to analyst for triage
 - Waits for analyst input, then disables the user account in AD if needed
 - Detection aligned with MIRE ATT&CK techniques
-- Built entirely in a segmented homelab network
+- Built entirely in a segmented network
+- Fully on-premise Splunk Enterprise and Splunk SOAR
 
 ## Technologies Used
-- Splunk Enterprise
-- Splunk SOAR (Phantom)
-- Windows Server w/ Active Directory Domain Services
-- pfSense Firewall, NAT, and routing
+- **Splunk Enterprise**
+- **Splunk SOAR (Phantom)**
+- **Windows Server** w/ **Active Directory Domain Services**
+- **pfSense** Firewall, NAT, and routing
 - Windows Event Logging
-- Kali Linux w/ rdesktop for generating RDP event code
+- **Kali Linux** w/ rdesktop for generating RDP event code
 
 ## Lab Architecture
 ![Diagram](images/ADSPlunkSOAR.jpg)
